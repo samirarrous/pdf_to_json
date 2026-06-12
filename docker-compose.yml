@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  pdf-extractor:
+    build: .
+    container_name: pdf_to_json_app
+    ports:
+      - "7860:7860"
+    env_file:
+      - .env
+    restart: unless-stopped

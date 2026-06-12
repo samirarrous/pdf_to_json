@@ -1,3 +1,4 @@
+import os
 import gradio as gr
 from main import process_pdf
 
@@ -47,4 +48,6 @@ with gr.Blocks() as app:
         outputs=output
     )
 
-app.launch()
+server_name = os.getenv("GRADIO_SERVER_NAME", "0.0.0.0")
+server_port = int(os.getenv("GRADIO_SERVER_PORT", "7860"))
+app.launch(server_name=server_name, server_port=server_port)
