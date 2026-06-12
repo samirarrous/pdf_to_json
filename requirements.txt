@@ -1,0 +1,11 @@
+gradio
+pdfplumber
+PyMuPDF
+pytesseract
+pdf2image
+Pillow
+pydantic
+json-repair
+numpy
+groq
+python-dotenv
