@@ -15,7 +15,7 @@ RÈGLES ABSOLUES :
 - Tu respectes STRICTEMENT le schéma fourni
 
 IMPORTANT :
-- Si une information est absente → "" ou 0
+- Si une information est absente → "unknown" 
 - Ne jamais inventer d'information
 
 ---
